@@ -34,7 +34,7 @@ function App() {
         <input
           type="number"
           value={count}
-          onclick={handkeCountChange}
+          onclick={handleCountChange}
           />
           <button
             onClick={() => setcount(count + 1)}
